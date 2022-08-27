@@ -8,8 +8,8 @@
 import numpy as np
 import scipy.stats as st
 
-x_dependent_variable = np.array([40, 100, 99, 150])
-y_independent_variable = np.array([1, 3, 2, 5])
+x_dependent_variable = np.array([40, 100, 99, 150, 20, 40, ])
+y_independent_variable = np.array([1, 3, 2, 5, 0.5, 1])
 
 simple_linear_regression_model = st.linregress(x_dependent_variable,y_independent_variable)
 
